@@ -4,7 +4,6 @@ import MockDate from 'mockdate';
 import moment from 'moment';
 import appReducer from '../app';
 import { changeModal, updateDays } from '../../actions/app';
-import { SIGNED_IN } from '../../actions/auth';
 
 describe('reducers/app', () => {
   beforeEach(() => {
@@ -47,9 +46,5 @@ describe('reducers/app', () => {
     expect(state.currentModal).toBe('CarModal');
   });
 
-  test('AUTH/SIGNED_IN', () => {
-    const state1 = appReducer(undefined, changeModal('CarModal'));
-    const state2 = appReducer(state1, { type: SIGNED_IN });
-    expect(state2.currentModal).toBe(null);
-  });
 });
+

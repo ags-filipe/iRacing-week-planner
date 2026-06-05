@@ -5,9 +5,9 @@ exports[`components/Navbar changes language 1`] = `
 - First value
 + Second value
 
-@@ -77,11 +77,11 @@
+@@ -69,11 +69,11 @@
             >
-              Sign out
+              About
             </a>
           </li>
           <li
@@ -25,9 +25,9 @@ exports[`components/Navbar changes language 2`] = `
 - First value
 + Second value
 
-@@ -77,11 +77,11 @@
+@@ -69,11 +69,11 @@
             >
-              Sign out
+              About
             </a>
           </li>
           <li
@@ -45,9 +45,9 @@ exports[`components/Navbar closes dropdown 1`] = `
 - First value
 + Second value
 
-@@ -77,11 +77,11 @@
+@@ -69,11 +69,11 @@
             >
-              Sign out
+              About
             </a>
           </li>
           <li
@@ -130,14 +130,6 @@ exports[`components/Navbar renders correctly and links work 1`] = `
           id="navbar-link-about"
         >
           About
-        </a>
-      </li>
-      <li>
-        <a
-          href=""
-          id="navbar-link-sign-out"
-        >
-          Sign out
         </a>
       </li>
       <li

@@ -3,13 +3,10 @@
 import * as React from 'react';
 import classNames from 'classnames';
 import { useTranslation } from 'react-i18next';
-import { shallowEqual, useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 import { changeModal } from '../actions/app';
-import { signOut } from '../actions/auth';
 import languages from '../i18n';
 import styles from '../styles/main.module.scss';
-
-const userSelector = (state) => state.auth.user;
 
 function useOutsideAlerter(ref, callback) {
   React.useEffect(() => {
@@ -35,7 +32,6 @@ export default function Navbar() {
       setLanguageDropdown(false);
     }
   }, [languageDropdown, setLanguageDropdown]));
-  const user = useSelector(userSelector, shallowEqual);
   const dispatch = useDispatch();
   const getModalChangeClick = (modalName) => (e) => {
     e.preventDefault();
@@ -106,26 +102,6 @@ export default function Navbar() {
               {t('About')}
             </a>
           </li>
-          {user ? (
-            <li>
-              <a
-                id="navbar-link-sign-out"
-                href=""
-                onClick={(e) => {
-                  e.preventDefault();
-                  dispatch(signOut());
-                }}
-              >
-                {t('Sign out')}
-              </a>
-            </li>
-          ) : (
-            <li>
-              <a id="navbar-link-sign-in" href="" onClick={getModalChangeClick('login')}>
-                {t('Sign in')}
-              </a>
-            </li>
-          )}
           <li
             id="navbar-language-dropdown"
             className={classNames({ [styles.dropdown]: true, [styles.open]: languageDropdown })}

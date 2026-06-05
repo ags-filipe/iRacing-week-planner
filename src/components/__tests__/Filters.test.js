@@ -14,8 +14,7 @@ const mockStore = configureMockStore([thunk]);
 describe('components/Filters', () => {
   test('renders correctly', () => {
     const store = mockStore({
-      settings: { filters: defaultFilters, firebaseSynced: false },
-      auth: { user: null },
+      settings: { filters: defaultFilters },
     });
 
     const component = renderer.create(<Provider store={store}><Filters /></Provider>);
@@ -26,8 +25,7 @@ describe('components/Filters', () => {
   test('correctly click a filter item checkbox', () => {
     const filters = { ...defaultFilters, type: ['Oval', 'Road'] };
     const store = mockStore({
-      settings: { filters, firebaseSynced: false },
-      auth: { user: null },
+      settings: { filters },
     });
 
     const component = renderer.create(<Provider store={store}><Filters /></Provider>);
@@ -58,8 +56,7 @@ describe('components/Filters', () => {
   test('correctly click a true/false checkbox', () => {
     const filters = { ...defaultFilters, ownedTracks: true };
     const store = mockStore({
-      settings: { filters, firebaseSynced: false },
-      auth: { user: null },
+      settings: { filters },
     });
 
     const component = renderer.create(<Provider store={store}><Filters /></Provider>);
@@ -89,32 +86,9 @@ describe('components/Filters', () => {
     expect(component).toMatchSnapshot();
   });
 
-  test('not synced user', () => {
-    const store = mockStore({
-      settings: { filters: defaultFilters, firebaseSynced: false },
-      auth: { user: { id: 12 } },
-    });
-
-    const component = renderer.create(<Provider store={store}><Filters /></Provider>);
-
-    expect(component).toMatchSnapshot();
-  });
-
-  test('synced user', () => {
-    const store = mockStore({
-      settings: { filters: defaultFilters, firebaseSynced: true },
-      auth: { user: { id: 12 } },
-    });
-
-    const component = renderer.create(<Provider store={store}><Filters /></Provider>);
-
-    expect(component).toMatchSnapshot();
-  });
-
   test('buttons fire events', () => {
     const store = mockStore({
-      settings: { filters: defaultFilters, firebaseSynced: false },
-      auth: { user: null },
+      settings: { filters: defaultFilters },
     });
     const component = renderer.create(<Provider store={store}><Filters /></Provider>);
 

@@ -73,14 +73,6 @@ exports[`components/App renders correctly 1`] = `
             About
           </a>
         </li>
-        <li>
-          <a
-            href=""
-            id="navbar-link-sign-in"
-          >
-            Sign in
-          </a>
-        </li>
         <li
           class="dropdown"
           id="navbar-language-dropdown"
@@ -515,6 +507,39 @@ exports[`components/App renders correctly 1`] = `
                 type="checkbox"
               />
               Fixed setup
+            </label>
+          </div>
+          <h4>
+            Team events
+          </h4>
+          <div
+            class="checkbox"
+            data-testid="checkbox-team-event-false"
+          >
+            <label
+              for="checkbox-team-event-false"
+            >
+              <input
+                checked=""
+                id="checkbox-team-event-false"
+                type="checkbox"
+              />
+              Solo
+            </label>
+          </div>
+          <div
+            class="checkbox"
+            data-testid="checkbox-team-event-true"
+          >
+            <label
+              for="checkbox-team-event-true"
+            >
+              <input
+                checked=""
+                id="checkbox-team-event-true"
+                type="checkbox"
+              />
+              Team
             </label>
           </div>
           <h4>

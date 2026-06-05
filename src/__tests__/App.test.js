@@ -6,15 +6,12 @@ import { Provider } from 'react-redux';
 import configureMockStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
 import MockDate from 'mockdate';
-import * as firebaseAuth from 'firebase/auth';
-import { SIGNED_IN } from '../actions/auth';
 
 import App from '../App';
 
 import '../data/season.json';
 import { defaultFilters } from '../reducers/settings';
 
-jest.mock('firebase/auth');
 jest.mock('../data/season.json');
 
 const mockStore = configureMockStore([thunk]);
@@ -37,10 +34,6 @@ describe('components/App', () => {
       week: 1,
       currentModal: null,
     },
-    auth: {
-      user: null,
-      firebaseApp: {},
-    },
   };
 
   beforeEach(() => {
@@ -56,12 +49,5 @@ describe('components/App', () => {
     const { container } = render(<Provider store={store}><App /></Provider>);
 
     expect(container.firstChild).toMatchSnapshot();
-    expect(store.getActions()[0].type).toEqual(SIGNED_IN);
-    expect(store.getActions()[0].user).not.toBeDefined();
-
-    const newUser = { id: 123 };
-    firebaseAuth.testDispatchOnAuthStateChanged(newUser);
-    expect(store.getActions()[1].type).toEqual(SIGNED_IN);
-    expect(store.getActions()[1].user).toBe(newUser);
   });
 });

@@ -10,13 +10,9 @@ import Checkbox from './Checkbox';
 import styles from '../styles/main.module.scss';
 
 const currentFiltersSelector = (state) => state.settings.filters;
-const userSelector = (state) => state.auth.user;
-const firebaseSyncedSelector = (state) => state.settings.firebaseSynced;
 
 export default function Filters(): React.Node {
   const currentFilters: filtersType = useSelector(currentFiltersSelector, shallowEqual);
-  const user = useSelector(userSelector, shallowEqual);
-  const firebaseSynced = useSelector(firebaseSyncedSelector);
   const dispatch = useDispatch();
   const { t } = useTranslation();
 
@@ -233,17 +229,6 @@ export default function Filters(): React.Node {
         </button>
       </p>
 
-      {user ? (
-        <p>
-          <span
-            id="filters-synced-status"
-          >
-            {firebaseSynced ? t('Synced') : t('Awaiting sync')}
-            <br />
-            {t('Refresh browser to download latest')}
-          </span>
-        </p>
-      ) : null}
     </div>
   );
 }

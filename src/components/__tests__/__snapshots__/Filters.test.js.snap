@@ -273,6 +273,43 @@ exports[`components/Filters correctly click a filter item checkbox 1`] = `
     </label>
   </div>
   <h4>
+    Team events
+  </h4>
+  <div
+    className="checkbox"
+    data-testid="checkbox-team-event-false"
+  >
+    <label
+      htmlFor="checkbox-team-event-false"
+    >
+      <input
+        checked={true}
+        disabled={false}
+        id="checkbox-team-event-false"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      Solo
+    </label>
+  </div>
+  <div
+    className="checkbox"
+    data-testid="checkbox-team-event-true"
+  >
+    <label
+      htmlFor="checkbox-team-event-true"
+    >
+      <input
+        checked={true}
+        disabled={false}
+        id="checkbox-team-event-true"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      Team
+    </label>
+  </div>
+  <h4>
     Content
   </h4>
   <div
@@ -656,6 +693,43 @@ exports[`components/Filters correctly click a true/false checkbox 1`] = `
     </label>
   </div>
   <h4>
+    Team events
+  </h4>
+  <div
+    className="checkbox"
+    data-testid="checkbox-team-event-false"
+  >
+    <label
+      htmlFor="checkbox-team-event-false"
+    >
+      <input
+        checked={true}
+        disabled={false}
+        id="checkbox-team-event-false"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      Solo
+    </label>
+  </div>
+  <div
+    className="checkbox"
+    data-testid="checkbox-team-event-true"
+  >
+    <label
+      htmlFor="checkbox-team-event-true"
+    >
+      <input
+        checked={true}
+        disabled={false}
+        id="checkbox-team-event-true"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      Team
+    </label>
+  </div>
+  <h4>
     Content
   </h4>
   <div
@@ -762,398 +836,6 @@ exports[`components/Filters correctly click a true/false checkbox 1`] = `
     >
       Reset all settings
     </button>
-  </p>
-</div>
-`;
-
-exports[`components/Filters not synced user 1`] = `
-<div
-  style={
-    {
-      "fontSize": "0.8em",
-    }
-  }
->
-  <h4>
-    Type
-  </h4>
-  <div
-    className="checkbox"
-    data-testid="checkbox-type-oval"
-  >
-    <label
-      htmlFor="checkbox-type-oval"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-type-oval"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Oval
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-type-road-sports"
-  >
-    <label
-      htmlFor="checkbox-type-road-sports"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-type-road-sports"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Sports Car
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-type-road-formula"
-  >
-    <label
-      htmlFor="checkbox-type-road-formula"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-type-road-formula"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Formula Car
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-type-dirt"
-  >
-    <label
-      htmlFor="checkbox-type-dirt"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-type-dirt"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Dirt
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-type-rx"
-  >
-    <label
-      htmlFor="checkbox-type-rx"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-type-rx"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      RX
-    </label>
-  </div>
-  <h4>
-    Licence
-  </h4>
-  <div
-    className="checkbox"
-    data-testid="checkbox-licence-r"
-  >
-    <label
-      htmlFor="checkbox-licence-r"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-licence-r"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      R
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-licence-d"
-  >
-    <label
-      htmlFor="checkbox-licence-d"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-licence-d"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      D
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-licence-c"
-  >
-    <label
-      htmlFor="checkbox-licence-c"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-licence-c"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      C
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-licence-b"
-  >
-    <label
-      htmlFor="checkbox-licence-b"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-licence-b"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      B
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-licence-a"
-  >
-    <label
-      htmlFor="checkbox-licence-a"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-licence-a"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      A
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-licence-p"
-  >
-    <label
-      htmlFor="checkbox-licence-p"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-licence-p"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      P
-    </label>
-  </div>
-  <h4>
-    Official/Fixed
-  </h4>
-  <div
-    className="checkbox"
-    data-testid="checkbox-official-false"
-  >
-    <label
-      htmlFor="checkbox-official-false"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-official-false"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Unofficial
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-official-true"
-  >
-    <label
-      htmlFor="checkbox-official-true"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-official-true"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Official
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-fixed-false"
-  >
-    <label
-      htmlFor="checkbox-fixed-false"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-fixed-false"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Open setup
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-fixed-true"
-  >
-    <label
-      htmlFor="checkbox-fixed-true"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-fixed-true"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Fixed setup
-    </label>
-  </div>
-  <h4>
-    Content
-  </h4>
-  <div
-    className="checkbox"
-    data-testid="checkbox-ownedCars"
-  >
-    <label
-      htmlFor="checkbox-ownedCars"
-    >
-      <input
-        checked={false}
-        disabled={false}
-        id="checkbox-ownedCars"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Owned cars only
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-ownedTracks"
-  >
-    <label
-      htmlFor="checkbox-ownedTracks"
-    >
-      <input
-        checked={false}
-        disabled={false}
-        id="checkbox-ownedTracks"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Owned tracks only
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-favouriteSeries"
-  >
-    <label
-      htmlFor="checkbox-favouriteSeries"
-    >
-      <input
-        checked={false}
-        disabled={false}
-        id="checkbox-favouriteSeries"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Favorite series only
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-favouriteCarsOnly"
-  >
-    <label
-      htmlFor="checkbox-favouriteCarsOnly"
-    >
-      <input
-        checked={false}
-        disabled={false}
-        id="checkbox-favouriteCarsOnly"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Favorite cars only
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-favouriteTracksOnly"
-  >
-    <label
-      htmlFor="checkbox-favouriteTracksOnly"
-    >
-      <input
-        checked={false}
-        disabled={false}
-        id="checkbox-favouriteTracksOnly"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Favorite tracks only
-    </label>
-  </div>
-  <p>
-    <button
-      className="btn btn-primary"
-      id="filters-reset-filters-button"
-      onClick={[Function]}
-      type="button"
-    >
-      Reset filters
-    </button>
-  </p>
-  <p>
-    <button
-      className="btn btn-primary"
-      id="filters-reset-settings-button"
-      onClick={[Function]}
-      type="button"
-    >
-      Reset all settings
-    </button>
-  </p>
-  <p>
-    <span
-      id="filters-synced-status"
-    >
-      Awaiting sync
-      <br />
-      Refresh browser to download latest
-    </span>
   </p>
 </div>
 `;
@@ -1431,386 +1113,40 @@ exports[`components/Filters renders correctly 1`] = `
     </label>
   </div>
   <h4>
-    Content
+    Team events
   </h4>
   <div
     className="checkbox"
-    data-testid="checkbox-ownedCars"
+    data-testid="checkbox-team-event-false"
   >
     <label
-      htmlFor="checkbox-ownedCars"
-    >
-      <input
-        checked={false}
-        disabled={false}
-        id="checkbox-ownedCars"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Owned cars only
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-ownedTracks"
-  >
-    <label
-      htmlFor="checkbox-ownedTracks"
-    >
-      <input
-        checked={false}
-        disabled={false}
-        id="checkbox-ownedTracks"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Owned tracks only
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-favouriteSeries"
-  >
-    <label
-      htmlFor="checkbox-favouriteSeries"
-    >
-      <input
-        checked={false}
-        disabled={false}
-        id="checkbox-favouriteSeries"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Favorite series only
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-favouriteCarsOnly"
-  >
-    <label
-      htmlFor="checkbox-favouriteCarsOnly"
-    >
-      <input
-        checked={false}
-        disabled={false}
-        id="checkbox-favouriteCarsOnly"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Favorite cars only
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-favouriteTracksOnly"
-  >
-    <label
-      htmlFor="checkbox-favouriteTracksOnly"
-    >
-      <input
-        checked={false}
-        disabled={false}
-        id="checkbox-favouriteTracksOnly"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Favorite tracks only
-    </label>
-  </div>
-  <p>
-    <button
-      className="btn btn-primary"
-      id="filters-reset-filters-button"
-      onClick={[Function]}
-      type="button"
-    >
-      Reset filters
-    </button>
-  </p>
-  <p>
-    <button
-      className="btn btn-primary"
-      id="filters-reset-settings-button"
-      onClick={[Function]}
-      type="button"
-    >
-      Reset all settings
-    </button>
-  </p>
-</div>
-`;
-
-exports[`components/Filters synced user 1`] = `
-<div
-  style={
-    {
-      "fontSize": "0.8em",
-    }
-  }
->
-  <h4>
-    Type
-  </h4>
-  <div
-    className="checkbox"
-    data-testid="checkbox-type-oval"
-  >
-    <label
-      htmlFor="checkbox-type-oval"
+      htmlFor="checkbox-team-event-false"
     >
       <input
         checked={true}
         disabled={false}
-        id="checkbox-type-oval"
+        id="checkbox-team-event-false"
         onChange={[Function]}
         type="checkbox"
       />
-      Oval
+      Solo
     </label>
   </div>
   <div
     className="checkbox"
-    data-testid="checkbox-type-road-sports"
+    data-testid="checkbox-team-event-true"
   >
     <label
-      htmlFor="checkbox-type-road-sports"
+      htmlFor="checkbox-team-event-true"
     >
       <input
         checked={true}
         disabled={false}
-        id="checkbox-type-road-sports"
+        id="checkbox-team-event-true"
         onChange={[Function]}
         type="checkbox"
       />
-      Sports Car
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-type-road-formula"
-  >
-    <label
-      htmlFor="checkbox-type-road-formula"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-type-road-formula"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Formula Car
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-type-dirt"
-  >
-    <label
-      htmlFor="checkbox-type-dirt"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-type-dirt"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Dirt
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-type-rx"
-  >
-    <label
-      htmlFor="checkbox-type-rx"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-type-rx"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      RX
-    </label>
-  </div>
-  <h4>
-    Licence
-  </h4>
-  <div
-    className="checkbox"
-    data-testid="checkbox-licence-r"
-  >
-    <label
-      htmlFor="checkbox-licence-r"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-licence-r"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      R
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-licence-d"
-  >
-    <label
-      htmlFor="checkbox-licence-d"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-licence-d"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      D
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-licence-c"
-  >
-    <label
-      htmlFor="checkbox-licence-c"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-licence-c"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      C
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-licence-b"
-  >
-    <label
-      htmlFor="checkbox-licence-b"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-licence-b"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      B
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-licence-a"
-  >
-    <label
-      htmlFor="checkbox-licence-a"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-licence-a"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      A
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-licence-p"
-  >
-    <label
-      htmlFor="checkbox-licence-p"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-licence-p"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      P
-    </label>
-  </div>
-  <h4>
-    Official/Fixed
-  </h4>
-  <div
-    className="checkbox"
-    data-testid="checkbox-official-false"
-  >
-    <label
-      htmlFor="checkbox-official-false"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-official-false"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Unofficial
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-official-true"
-  >
-    <label
-      htmlFor="checkbox-official-true"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-official-true"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Official
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-fixed-false"
-  >
-    <label
-      htmlFor="checkbox-fixed-false"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-fixed-false"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Open setup
-    </label>
-  </div>
-  <div
-    className="checkbox"
-    data-testid="checkbox-fixed-true"
-  >
-    <label
-      htmlFor="checkbox-fixed-true"
-    >
-      <input
-        checked={true}
-        disabled={false}
-        id="checkbox-fixed-true"
-        onChange={[Function]}
-        type="checkbox"
-      />
-      Fixed setup
+      Team
     </label>
   </div>
   <h4>
@@ -1920,15 +1256,6 @@ exports[`components/Filters synced user 1`] = `
     >
       Reset all settings
     </button>
-  </p>
-  <p>
-    <span
-      id="filters-synced-status"
-    >
-      Synced
-      <br />
-      Refresh browser to download latest
-    </span>
   </p>
 </div>
 `;

@@ -5,12 +5,10 @@ import { act, fireEvent, render } from '@testing-library/react';
 import { Provider } from 'react-redux';
 import configureMockStore from 'redux-mock-store';
 import thunk from 'redux-thunk';
-import { LOADING_AUTH, SIGNED_OUT } from '../../actions/auth';
 import { CHANGE_MODAL } from '../../actions/app';
 
 import Navbar from '../Navbar';
 
-jest.mock('../../actions/auth');
 jest.mock('react-i18next', () => ({
   __esModule: true,
   useTranslation: jest.fn(() => ({
@@ -29,7 +27,7 @@ const mockStore = configureMockStore([thunk]);
 
 describe('components/Navbar', () => {
   test('renders correctly and links work', async () => {
-    const store = mockStore({ auth: { user: { id: 1 } } });
+    const store = mockStore({});
     const component = render(<Provider store={store}><Navbar /></Provider>);
 
     expect(component.container.firstChild).toMatchSnapshot();
@@ -63,21 +61,6 @@ describe('components/Navbar', () => {
 
     expect(store.getActions()[5].type).toEqual(CHANGE_MODAL);
     expect(store.getActions()[5].modalName).toBe('about');
-
-    fireEvent.click(await component.findByText('Sign out'));
-
-    expect(store.getActions()[6].type).toEqual(LOADING_AUTH);
-    expect(store.getActions()[7].type).toEqual(SIGNED_OUT);
-  });
-
-  test('sign in', async () => {
-    const store = mockStore({ auth: { user: null } });
-    const component = render(<Provider store={store}><Navbar /></Provider>);
-
-    fireEvent.click(await component.findByText('Sign in'));
-
-    expect(store.getActions()[0].type).toEqual(CHANGE_MODAL);
-    expect(store.getActions()[0].modalName).toBe('login');
   });
 
   test('changes language', async () => {
@@ -90,7 +73,7 @@ describe('components/Navbar', () => {
         language: 'en',
       },
     }));
-    const store = mockStore({ auth: { user: { id: 1 } } });
+    const store = mockStore({});
     let component;
     act(() => {
       component = render(<Provider store={store}><Navbar /></Provider>);
@@ -114,7 +97,7 @@ describe('components/Navbar', () => {
   });
 
   test('closes dropdown', async () => {
-    const store = mockStore({ auth: { user: { id: 1 } } });
+    const store = mockStore({});
     let component;
 
     act(() => {

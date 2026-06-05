@@ -1,14 +1,11 @@
 // @flow
 
 import * as React from 'react';
-import { useDispatch } from 'react-redux';
 import { useTranslation } from 'react-i18next';
 import BuyACoffee from './components/BuyACoffee';
 import DateSlider from './components/DateSlider';
 import GlobalModals from './components/GlobalModals';
 import Navbar from './components/Navbar';
-
-import { startListener } from './actions/auth';
 
 import RaceListing from './components/RaceListing';
 import Filters from './components/Filters';
@@ -22,13 +19,6 @@ import './styles/fonts.css';
 
 export default function App(): React.Node {
   const { t, i18n } = useTranslation();
-  const dispatch = useDispatch();
-
-  React.useEffect(() => {
-    dispatch(startListener());
-
-    return () => {};
-  }, []);
 
   React.useEffect(() => {
     document.body.dir = i18n.dir();

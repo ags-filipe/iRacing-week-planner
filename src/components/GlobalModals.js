@@ -10,7 +10,6 @@ import { updateSetting } from '../actions/settings';
 import AboutModal from './modal/AboutModal';
 import ContentModal from './modal/ContentModal';
 import FavouriteSeriesModal from './modal/FavouriteSeriesModal';
-import LoginModal from './modal/LoginModal';
 import OptionsModal from './modal/OptionsModal';
 import PurchaseGuideModal from './modal/PurchaseGuideModal';
 
@@ -111,10 +110,6 @@ export default function GlobalModals() {
         onClose={closeModal}
         ownedTracks={ownedTracks}
         favouriteSeries={favouriteSeries}
-      />
-      <LoginModal
-        isOpen={currentModal === 'login'}
-        onClose={closeModal}
       />
     </>
   );

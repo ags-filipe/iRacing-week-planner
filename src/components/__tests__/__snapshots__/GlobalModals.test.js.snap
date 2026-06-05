@@ -272,6 +272,24 @@ exports[`components/GlobalModals renders open options, closing and saving 1`] = 
                 >
                   <div
                     class="checkbox"
+                    data-testid="options-columns-teamEvent"
+                  >
+                    <label
+                      for="options-columns-teamEvent"
+                    >
+                      <input
+                        id="options-columns-teamEvent"
+                        type="checkbox"
+                      />
+                      Team
+                    </label>
+                  </div>
+                </div>
+                <div
+                  class="col-xs-3 col-md-2"
+                >
+                  <div
+                    class="checkbox"
                     data-testid="options-columns-raceTimes"
                   >
                     <label

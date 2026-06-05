@@ -24,10 +24,6 @@ describe('components/GlobalModals', () => {
     app: {
       currentModal: null,
     },
-    auth: {
-      user: null,
-      firebaseApp: {},
-    },
   };
 
   test('renders all closed', async () => {

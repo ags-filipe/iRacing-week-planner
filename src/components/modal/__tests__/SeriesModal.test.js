@@ -6,7 +6,6 @@ import MockDate from 'mockdate';
 import SeriesModal from '../SeriesModal';
 import '../../../data/offWeeks';
 
-jest.mock('firebase/auth');
 jest.mock('../../../data/offWeeks');
 
 describe('components/modal/SeriesModal', () => {

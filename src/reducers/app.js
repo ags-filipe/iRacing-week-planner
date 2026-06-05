@@ -2,7 +2,6 @@
 
 import moment, { duration } from 'moment';
 import { CHANGE_MODAL, UPDATE_DAYS } from '../actions/app';
-import { SIGNED_IN } from '../actions/auth';
 import { seasonStart, weekSeasonStart, seasonEnd } from '../config';
 
 const getWeek = (date) => Math.ceil(duration(moment(date).add({ second: 1 }).diff(weekSeasonStart)).asWeeks());
@@ -61,13 +60,6 @@ export default function app(
     return {
       ...state,
       currentModal: modalName,
-    };
-  }
-
-  if (type === SIGNED_IN) {
-    return {
-      ...state,
-      currentModal: null,
     };
   }
 

@@ -2,10 +2,7 @@
 
 import uniq from 'lodash.uniq';
 import { actionTypes as localStorageActionTypes } from 'redux-localstorage';
-import { SIGNED_OUT } from '../actions/auth';
 import {
-  FIREBASE_SYNCED,
-  LOAD_SETTINGS_FROM_FIREBASE,
   RESET_FILTERS,
   RESET_SETTINGS,
   UPDATE_FILTERS,
@@ -55,7 +52,6 @@ export type SettingOptions = {
   favouriteTracks: Array<number>,
   sort: SortOptions,
   columns: Array<number>,
-  firebaseSynced: boolean,
 };
 
 export const defaultSettings: SettingOptions = {
@@ -67,7 +63,6 @@ export const defaultSettings: SettingOptions = {
   favouriteTracks: [],
   sort: { key: 'licence', order: 'asc' },
   columns: availableColumns.filter((column) => column.default === true).map((column) => column.id),
-  firebaseSynced: false,
 };
 
 function synchroniseLegacyChanges(state) {
@@ -112,32 +107,19 @@ export default function settings(initState: SettingOptions, { type, payload }): 
   }
 
   if (type === UPDATE_FILTERS) {
-    return { ...state, filters: payload.filters, firebaseSynced: false };
+    return { ...state, filters: payload.filters };
   }
 
   if (type === RESET_FILTERS) {
-    return { ...state, filters: defaultFilters, firebaseSynced: false };
+    return { ...state, filters: defaultFilters };
   }
 
-  if (type === RESET_SETTINGS || type === SIGNED_OUT) {
-    return { ...defaultSettings, firebaseSynced: false };
+  if (type === RESET_SETTINGS) {
+    return { ...defaultSettings };
   }
 
   if (type === UPDATE_SETTING) {
-    return { ...state, [payload.key]: payload.value, firebaseSynced: false };
-  }
-
-  if (type === LOAD_SETTINGS_FROM_FIREBASE) {
-    return synchroniseLegacyChanges({
-      ...state,
-      ...defaultSettings,
-      ...payload,
-      firebaseSynced: true,
-    });
-  }
-
-  if (type === FIREBASE_SYNCED) {
-    return { ...state, firebaseSynced: true };
+    return { ...state, [payload.key]: payload.value };
   }
 
   return state;
