@@ -1,0 +1,2592 @@
+[
+  {
+    "freeWithSubscription": false,
+    "skuname": "Skip Barber Formula 2000",
+    "name": "Skip Barber Formula 2000",
+    "sku": 10009,
+    "id": 1,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Modified - SK",
+    "name": "Modified - SK",
+    "sku": 10010,
+    "id": 2,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Pontiac Solstice",
+    "name": "Pontiac Solstice",
+    "sku": 10011,
+    "id": 3,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] Pro Mazda",
+    "name": "[Legacy] Pro Mazda",
+    "sku": 10006,
+    "id": 4,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Legends Ford '34 Coupe",
+    "name": "Legends Ford '34 Coupe",
+    "sku": 10008,
+    "id": 5,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Pontiac Solstice - Rookie",
+    "name": "Pontiac Solstice - Rookie",
+    "sku": 10011,
+    "id": 10,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "[Retired] Legends Ford '34 Coupe - Rookie",
+    "name": "[Retired] Legends Ford '34 Coupe - Rookie",
+    "sku": 10008,
+    "id": 11,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Retired] Chevrolet Monte Carlo SS",
+    "name": "[Retired] Chevrolet Monte Carlo SS",
+    "sku": 0,
+    "id": 12,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Radical SR8",
+    "name": "Radical SR8",
+    "sku": 10040,
+    "id": 13,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Silver Crown",
+    "name": "Silver Crown",
+    "sku": 10043,
+    "id": 18,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "[Legacy] NASCAR Truck Chevrolet Silverado - 2008",
+    "name": "[Legacy] NASCAR Truck Chevrolet Silverado - 2008",
+    "sku": 10054,
+    "id": 20,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] Riley MkXX Daytona Prototype - 2008",
+    "name": "[Legacy] Riley MkXX Daytona Prototype - 2008",
+    "sku": 10061,
+    "id": 21,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] NASCAR Cup Chevrolet Impala COT - 2009",
+    "name": "[Legacy] NASCAR Cup Chevrolet Impala COT - 2009",
+    "sku": 10068,
+    "id": 22,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "SCCA Spec Racer Ford",
+    "name": "SCCA Spec Racer Ford",
+    "sku": 10087,
+    "id": 23,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] ARCA Menards Chevrolet Impala",
+    "name": "[Legacy] ARCA Menards Chevrolet Impala",
+    "sku": 10088,
+    "id": 24,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Lotus 79",
+    "name": "Lotus 79",
+    "sku": 10110,
+    "id": 25,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Chevrolet Corvette C6.R GT1",
+    "name": "Chevrolet Corvette C6.R GT1",
+    "sku": 10113,
+    "id": 26,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "VW Jetta TDI Cup",
+    "name": "VW Jetta TDI Cup",
+    "sku": 10114,
+    "id": 27,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] V8 Supercar Ford Falcon - 2009",
+    "name": "[Legacy] V8 Supercar Ford Falcon - 2009",
+    "sku": 10115,
+    "id": 28,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] Dallara IR-05",
+    "name": "[Legacy] Dallara IR-05",
+    "sku": 10119,
+    "id": 29,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Ford Mustang FR500S",
+    "name": "Ford Mustang FR500S",
+    "sku": 10210,
+    "id": 30,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Modified - NASCAR Whelen Tour",
+    "name": "Modified - NASCAR Whelen Tour",
+    "sku": 10010,
+    "id": 31,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Williams-Toyota FW31",
+    "name": "Williams-Toyota FW31",
+    "sku": 10222,
+    "id": 33,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "[Legacy] Mazda MX-5 Cup - 2010",
+    "name": "[Legacy] Mazda MX-5 Cup - 2010",
+    "sku": 10226,
+    "id": 34,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "[Legacy] Mazda MX-5 Roadster - 2010",
+    "name": "[Legacy] Mazda MX-5 Roadster - 2010",
+    "sku": 10226,
+    "id": 35,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Street Stock - Panther C1",
+    "name": "Street Stock - Panther C1",
+    "sku": 10232,
+    "id": 36,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Sprint Car",
+    "name": "Sprint Car",
+    "sku": 10261,
+    "id": 37,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] NASCAR Nationwide Chevrolet Impala - 2012",
+    "name": "[Legacy] NASCAR Nationwide Chevrolet Impala - 2012",
+    "sku": 10268,
+    "id": 38,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "HPD ARX-01c",
+    "name": "HPD ARX-01c",
+    "sku": 10280,
+    "id": 39,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Ford GT GT2",
+    "name": "Ford GT GT2",
+    "sku": 10281,
+    "id": 40,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Cadillac CTS-V Racecar",
+    "name": "Cadillac CTS-V Racecar",
+    "sku": 10306,
+    "id": 41,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Lotus 49",
+    "name": "Lotus 49",
+    "sku": 10334,
+    "id": 42,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] McLaren MP4-12C GT3",
+    "name": "[Legacy] McLaren MP4-12C GT3",
+    "sku": 10335,
+    "id": 43,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Kia Optima",
+    "name": "Kia Optima",
+    "sku": 10341,
+    "id": 44,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] NASCAR Cup Chevrolet SS - 2013",
+    "name": "[Legacy] NASCAR Cup Chevrolet SS - 2013",
+    "sku": 10344,
+    "id": 45,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] NASCAR Cup Ford Fusion - 2016",
+    "name": "[Legacy] NASCAR Cup Ford Fusion - 2016",
+    "sku": 10408,
+    "id": 46,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Ruf RT 12R AWD",
+    "name": "Ruf RT 12R AWD",
+    "sku": 10353,
+    "id": 48,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Ruf RT 12R RWD",
+    "name": "Ruf RT 12R RWD",
+    "sku": 10353,
+    "id": 49,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Ruf RT 12R Track",
+    "name": "Ruf RT 12R Track",
+    "sku": 10353,
+    "id": 50,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] NASCAR Xfinity Ford Mustang - 2016",
+    "name": "[Legacy] NASCAR Xfinity Ford Mustang - 2016",
+    "sku": 10409,
+    "id": 51,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Ruf RT 12R C-Spec",
+    "name": "Ruf RT 12R C-Spec",
+    "sku": 10353,
+    "id": 52,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Super Late Model",
+    "name": "Super Late Model",
+    "sku": 10360,
+    "id": 54,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] BMW Z4 GT3",
+    "name": "[Legacy] BMW Z4 GT3",
+    "sku": 10362,
+    "id": 55,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "NASCAR Cup Series Toyota Camry",
+    "name": "NASCAR Cup Series Toyota Camry",
+    "sku": 10363,
+    "id": 56,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "[Legacy] Dallara DW12",
+    "name": "[Legacy] Dallara DW12",
+    "sku": 10370,
+    "id": 57,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] NASCAR Xfinity Chevrolet Camaro - 2014",
+    "name": "[Legacy] NASCAR Xfinity Chevrolet Camaro - 2014",
+    "sku": 10373,
+    "id": 58,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Ford GT GT3",
+    "name": "Ford GT GT3",
+    "sku": 10281,
+    "id": 59,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] V8 Supercar Holden VF Commodore - 2014",
+    "name": "[Legacy] V8 Supercar Holden VF Commodore - 2014",
+    "sku": 10375,
+    "id": 60,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] V8 Supercar Ford FG Falcon - 2014",
+    "name": "[Legacy] V8 Supercar Ford FG Falcon - 2014",
+    "sku": 10379,
+    "id": 61,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Retired] NASCAR Gander Outdoors Toyota Tundra",
+    "name": "[Retired] NASCAR Gander Outdoors Toyota Tundra",
+    "sku": 0,
+    "id": 62,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Retired] NASCAR Trucks Series Chevrolet Silverado - 2018",
+    "name": "[Retired] NASCAR Trucks Series Chevrolet Silverado - 2018",
+    "sku": 0,
+    "id": 63,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Aston Martin DBR9 GT1",
+    "name": "Aston Martin DBR9 GT1",
+    "sku": 10389,
+    "id": 64,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Global Mazda MX-5 Cup",
+    "name": "Global Mazda MX-5 Cup",
+    "sku": 10394,
+    "id": 67,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] NASCAR Xfinity Toyota Camry - 2015",
+    "name": "[Legacy] NASCAR Xfinity Toyota Camry - 2015",
+    "sku": 10399,
+    "id": 69,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Chevrolet Corvette C7 Daytona Prototype",
+    "name": "Chevrolet Corvette C7 Daytona Prototype",
+    "sku": 10400,
+    "id": 70,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "McLaren MP4-30",
+    "name": "McLaren MP4-30",
+    "sku": 10402,
+    "id": 71,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] Mercedes-AMG GT3",
+    "name": "[Legacy] Mercedes-AMG GT3",
+    "sku": 10404,
+    "id": 72,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] Audi R8 LMS GT3",
+    "name": "[Legacy] Audi R8 LMS GT3",
+    "sku": 10405,
+    "id": 73,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Formula Renault 2.0",
+    "name": "Formula Renault 2.0",
+    "sku": 10406,
+    "id": 74,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Audi 90 GTO",
+    "name": "Audi 90 GTO",
+    "sku": 10410,
+    "id": 76,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Nissan GTP ZX-T",
+    "name": "Nissan GTP ZX-T",
+    "sku": 10411,
+    "id": 77,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Dirt Late Model - Limited",
+    "name": "Dirt Late Model - Limited",
+    "sku": 10412,
+    "id": 78,
+    "categories": [
+      "dirt_oval"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Dirt Street Stock",
+    "name": "Dirt Street Stock",
+    "sku": 10417,
+    "id": 79,
+    "categories": [
+      "dirt_oval"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Dirt Sprint Car - 305",
+    "name": "Dirt Sprint Car - 305",
+    "sku": 10418,
+    "id": 80,
+    "categories": [
+      "dirt_oval"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Ford Fiesta RS WRC",
+    "name": "Ford Fiesta RS WRC",
+    "sku": 10419,
+    "id": 81,
+    "categories": [
+      "dirt_road"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Dirt Legends Ford '34 Coupe",
+    "name": "Dirt Legends Ford '34 Coupe",
+    "sku": 10008,
+    "id": 82,
+    "categories": [
+      "dirt_oval"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Dirt Late Model - Pro",
+    "name": "Dirt Late Model - Pro",
+    "sku": 10412,
+    "id": 83,
+    "categories": [
+      "dirt_oval"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Dirt Late Model - Super",
+    "name": "Dirt Late Model - Super",
+    "sku": 10412,
+    "id": 84,
+    "categories": [
+      "dirt_oval"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Dirt Sprint Car - 360",
+    "name": "Dirt Sprint Car - 360",
+    "sku": 10418,
+    "id": 85,
+    "categories": [
+      "dirt_oval"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Dirt Sprint Car - 410",
+    "name": "Dirt Sprint Car - 410",
+    "sku": 10418,
+    "id": 86,
+    "categories": [
+      "dirt_oval"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Dirt Sprint Car - 360 Non-Winged",
+    "name": "Dirt Sprint Car - 360 Non-Winged",
+    "sku": 10426,
+    "id": 87,
+    "categories": [
+      "dirt_oval"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] Porsche 911 GT3 Cup (991)",
+    "name": "[Legacy] Porsche 911 GT3 Cup (991)",
+    "sku": 10513,
+    "id": 88,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Dirt Sprint Car - 410 Non-Winged",
+    "name": "Dirt Sprint Car - 410 Non-Winged",
+    "sku": 10426,
+    "id": 89,
+    "categories": [
+      "dirt_oval"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "VW Beetle",
+    "name": "VW Beetle",
+    "sku": 10428,
+    "id": 91,
+    "categories": [
+      "dirt_road"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Ford GTE",
+    "name": "Ford GTE",
+    "sku": 10429,
+    "id": 92,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Ferrari 488 GTE",
+    "name": "Ferrari 488 GTE",
+    "sku": 10431,
+    "id": 93,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] Ferrari 488 GT3",
+    "name": "[Legacy] Ferrari 488 GT3",
+    "sku": 10514,
+    "id": 94,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Dirt UMP Modified",
+    "name": "Dirt UMP Modified",
+    "sku": 10433,
+    "id": 95,
+    "categories": [
+      "dirt_oval"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Dirt Midget",
+    "name": "Dirt Midget",
+    "sku": 10436,
+    "id": 96,
+    "categories": [
+      "dirt_oval"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Audi R18",
+    "name": "Audi R18",
+    "sku": 10439,
+    "id": 98,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Dallara IR18",
+    "name": "Dallara IR18",
+    "sku": 10440,
+    "id": 99,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Porsche 919",
+    "name": "Porsche 919",
+    "sku": 10442,
+    "id": 100,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Subaru WRX STI",
+    "name": "Subaru WRX STI",
+    "sku": 10444,
+    "id": 101,
+    "categories": [
+      "dirt_road"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Porsche 911 RSR",
+    "name": "Porsche 911 RSR",
+    "sku": 10445,
+    "id": 102,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "NASCAR Cup Series Chevrolet Camaro ZL1",
+    "name": "NASCAR Cup Series Chevrolet Camaro ZL1",
+    "sku": 10447,
+    "id": 103,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Lucas Oil Off Road Pro 2 Truck",
+    "name": "Lucas Oil Off Road Pro 2 Truck",
+    "sku": 10450,
+    "id": 104,
+    "categories": [
+      "dirt_road"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Formula Renault 3.5",
+    "name": "Formula Renault 3.5",
+    "sku": 10451,
+    "id": 105,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Dallara F3",
+    "name": "Dallara F3",
+    "sku": 10452,
+    "id": 106,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Lucas Oil Off Road Pro 4 Truck",
+    "name": "Lucas Oil Off Road Pro 4 Truck",
+    "sku": 10450,
+    "id": 107,
+    "categories": [
+      "dirt_road"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "BMW M8 GTE",
+    "name": "BMW M8 GTE",
+    "sku": 10457,
+    "id": 109,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "NASCAR Cup Series Ford Mustang",
+    "name": "NASCAR Cup Series Ford Mustang",
+    "sku": 10458,
+    "id": 110,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "NASCAR Truck Chevrolet Silverado",
+    "name": "NASCAR Truck Chevrolet Silverado",
+    "sku": 10459,
+    "id": 111,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] Audi RS3 LMS TCR",
+    "name": "[Legacy] Audi RS3 LMS TCR",
+    "sku": 10461,
+    "id": 112,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Lucas Oil Off Road Pro 2 Lite",
+    "name": "Lucas Oil Off Road Pro 2 Lite",
+    "sku": 10463,
+    "id": 113,
+    "categories": [
+      "dirt_road"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "NASCAR O'Reilly Chevrolet Camaro",
+    "name": "NASCAR O'Reilly Chevrolet Camaro",
+    "sku": 10464,
+    "id": 114,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "NASCAR O'Reilly Ford Mustang",
+    "name": "NASCAR O'Reilly Ford Mustang",
+    "sku": 10465,
+    "id": 115,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "NASCAR O'Reilly Toyota Supra",
+    "name": "NASCAR O'Reilly Toyota Supra",
+    "sku": 10466,
+    "id": 116,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] Supercars Holden ZB Commodore",
+    "name": "[Legacy] Supercars Holden ZB Commodore",
+    "sku": 10467,
+    "id": 117,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] Supercars Ford Mustang GT",
+    "name": "[Legacy] Supercars Ford Mustang GT",
+    "sku": 10472,
+    "id": 118,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Porsche 718 Cayman GT4 Clubsport MR",
+    "name": "Porsche 718 Cayman GT4 Clubsport MR",
+    "sku": 10473,
+    "id": 119,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Indy Pro 2000 PM-18",
+    "name": "Indy Pro 2000 PM-18",
+    "sku": 10477,
+    "id": 120,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "USF 2000",
+    "name": "USF 2000",
+    "sku": 10478,
+    "id": 121,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "BMW M4 F82 GT4 - 2018",
+    "name": "BMW M4 F82 GT4 - 2018",
+    "sku": 10479,
+    "id": 122,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "NASCAR Truck Ford F150",
+    "name": "NASCAR Truck Ford F150",
+    "sku": 10481,
+    "id": 123,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "NASCAR Legends Chevrolet Monte Carlo - 1987",
+    "name": "NASCAR Legends Chevrolet Monte Carlo - 1987",
+    "sku": 10482,
+    "id": 124,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "NASCAR Legends Ford Thunderbird - 1987",
+    "name": "NASCAR Legends Ford Thunderbird - 1987",
+    "sku": 10483,
+    "id": 125,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Chevrolet Corvette C8.R GTE",
+    "name": "Chevrolet Corvette C8.R GTE",
+    "sku": 10484,
+    "id": 127,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Dallara P217",
+    "name": "Dallara P217",
+    "sku": 10488,
+    "id": 128,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Dallara iR-01",
+    "name": "Dallara iR-01",
+    "sku": 10489,
+    "id": 129,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Dirt Big Block Modified",
+    "name": "Dirt Big Block Modified",
+    "sku": 10492,
+    "id": 131,
+    "categories": [
+      "dirt_oval"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "BMW M4 GT3 EVO",
+    "name": "BMW M4 GT3 EVO",
+    "sku": 10494,
+    "id": 132,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Lamborghini Hurac\u00e1n GT3 EVO",
+    "name": "Lamborghini Hurac\u00e1n GT3 EVO",
+    "sku": 10495,
+    "id": 133,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Dirt 358 Modified",
+    "name": "Dirt 358 Modified",
+    "sku": 10492,
+    "id": 134,
+    "categories": [
+      "dirt_oval"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "McLaren 570S GT4",
+    "name": "McLaren 570S GT4",
+    "sku": 10497,
+    "id": 135,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] Porsche 911 GT3 R",
+    "name": "[Legacy] Porsche 911 GT3 R",
+    "sku": 10502,
+    "id": 137,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "VW Beetle - Lite",
+    "name": "VW Beetle - Lite",
+    "sku": 10428,
+    "id": 138,
+    "categories": [
+      "dirt_road"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "NASCAR Cup Series Next Gen Chevrolet Camaro ZL1",
+    "name": "NASCAR Cup Series Next Gen Chevrolet Camaro ZL1",
+    "sku": 10503,
+    "id": 139,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "NASCAR Cup Series Next Gen Ford Mustang",
+    "name": "NASCAR Cup Series Next Gen Ford Mustang",
+    "sku": 10504,
+    "id": 140,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "NASCAR Cup Series Next Gen Toyota Camry",
+    "name": "NASCAR Cup Series Next Gen Toyota Camry",
+    "sku": 10505,
+    "id": 141,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Formula Vee",
+    "name": "Formula Vee",
+    "sku": 10507,
+    "id": 142,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] Porsche 911 GT3 Cup (992.1)",
+    "name": "[Legacy] Porsche 911 GT3 Cup (992.1)",
+    "sku": 10509,
+    "id": 143,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Ferrari 488 GT3 Evo 2020",
+    "name": "Ferrari 488 GT3 Evo 2020",
+    "sku": 10510,
+    "id": 144,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Mercedes-AMG W12 E Performance",
+    "name": "Mercedes-AMG W12 E Performance",
+    "sku": 10515,
+    "id": 145,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Hyundai Elantra N TCR",
+    "name": "Hyundai Elantra N TCR",
+    "sku": 10516,
+    "id": 146,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Honda Civic Type R TCR",
+    "name": "Honda Civic Type R TCR",
+    "sku": 10517,
+    "id": 147,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "FIA F4",
+    "name": "FIA F4",
+    "sku": 10518,
+    "id": 148,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Radical SR10",
+    "name": "Radical SR10",
+    "sku": 10522,
+    "id": 149,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Aston Martin Vantage GT4",
+    "name": "Aston Martin Vantage GT4",
+    "sku": 10523,
+    "id": 150,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Stock Car Brasil Chevrolet Cruze",
+    "name": "Stock Car Brasil Chevrolet Cruze",
+    "sku": 10524,
+    "id": 151,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Stock Car Brasil Toyota Corolla",
+    "name": "Stock Car Brasil Toyota Corolla",
+    "sku": 10525,
+    "id": 152,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Hyundai Veloster N TCR",
+    "name": "Hyundai Veloster N TCR",
+    "sku": 10526,
+    "id": 153,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "NASCAR Legends Buick LeSabre - 1987",
+    "name": "NASCAR Legends Buick LeSabre - 1987",
+    "sku": 10527,
+    "id": 154,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "NASCAR Truck Toyota Tundra TRD Pro",
+    "name": "NASCAR Truck Toyota Tundra TRD Pro",
+    "sku": 10530,
+    "id": 155,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Mercedes-AMG GT3 2020",
+    "name": "Mercedes-AMG GT3 2020",
+    "sku": 10532,
+    "id": 156,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Mercedes-AMG GT4",
+    "name": "Mercedes-AMG GT4",
+    "sku": 10533,
+    "id": 157,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Porsche Mission R",
+    "name": "Porsche Mission R",
+    "sku": 10539,
+    "id": 158,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "BMW M Hybrid V8",
+    "name": "BMW M Hybrid V8",
+    "sku": 10543,
+    "id": 159,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Toyota GR86",
+    "name": "Toyota GR86",
+    "sku": 10544,
+    "id": 160,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Mercedes-AMG W13 E Performance",
+    "name": "Mercedes-AMG W13 E Performance",
+    "sku": 10545,
+    "id": 161,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Renault Clio",
+    "name": "Renault Clio",
+    "sku": 10548,
+    "id": 162,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Ray FF1600",
+    "name": "Ray FF1600",
+    "sku": 10549,
+    "id": 163,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Late Model Stock",
+    "name": "Late Model Stock",
+    "sku": 10550,
+    "id": 164,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Ligier JS P320",
+    "name": "Ligier JS P320",
+    "sku": 10552,
+    "id": 165,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "[Legacy] Gen 4 Cup",
+    "name": "[Legacy] Gen 4 Cup",
+    "sku": 10088,
+    "id": 167,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 2.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Cadillac V-Series.R GTP",
+    "name": "Cadillac V-Series.R GTP",
+    "sku": 10554,
+    "id": 168,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Porsche 911 GT3 R (992)",
+    "name": "Porsche 911 GT3 R (992)",
+    "sku": 10555,
+    "id": 169,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Acura ARX-06 GTP",
+    "name": "Acura ARX-06 GTP",
+    "sku": 10558,
+    "id": 170,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Super Formula SF23 - Toyota",
+    "name": "Super Formula SF23 - Toyota",
+    "sku": 10559,
+    "id": 171,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Super Formula SF23 - Honda",
+    "name": "Super Formula SF23 - Honda",
+    "sku": 10559,
+    "id": 172,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Ferrari 296 GT3",
+    "name": "Ferrari 296 GT3",
+    "sku": 10563,
+    "id": 173,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Porsche 963 GTP",
+    "name": "Porsche 963 GTP",
+    "sku": 10564,
+    "id": 174,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "NASCAR Legends Pontiac Grand Prix - 1987",
+    "name": "NASCAR Legends Pontiac Grand Prix - 1987",
+    "sku": 10566,
+    "id": 175,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Audi R8 LMS EVO II GT3",
+    "name": "Audi R8 LMS EVO II GT3",
+    "sku": 10567,
+    "id": 176,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Super Formula Lights",
+    "name": "Super Formula Lights",
+    "sku": 10571,
+    "id": 178,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "SRX",
+    "name": "SRX",
+    "sku": 10572,
+    "id": 179,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Dirt Micro Sprint Car - Winged",
+    "name": "Dirt Micro Sprint Car - Winged",
+    "sku": 10573,
+    "id": 180,
+    "categories": [
+      "dirt_oval"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Dirt Micro Sprint Car - Non-Winged",
+    "name": "Dirt Micro Sprint Car - Non-Winged",
+    "sku": 10573,
+    "id": 181,
+    "categories": [
+      "dirt_oval"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Dirt Outlaw Micro Sprint Car - Winged",
+    "name": "Dirt Outlaw Micro Sprint Car - Winged",
+    "sku": 10573,
+    "id": 182,
+    "categories": [
+      "dirt_oval"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Dirt Outlaw Micro Sprint Car - Non-Winged",
+    "name": "Dirt Outlaw Micro Sprint Car - Non-Winged",
+    "sku": 10573,
+    "id": 183,
+    "categories": [
+      "dirt_oval"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Chevrolet Corvette Z06 GT3.R",
+    "name": "Chevrolet Corvette Z06 GT3.R",
+    "sku": 10576,
+    "id": 184,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Ford Mustang GT3",
+    "name": "Ford Mustang GT3",
+    "sku": 10580,
+    "id": 185,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Street Stock - Casino M2",
+    "name": "Street Stock - Casino M2",
+    "sku": 10581,
+    "id": 186,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Street Stock - Eagle T3",
+    "name": "Street Stock - Eagle T3",
+    "sku": 10581,
+    "id": 187,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "McLaren 720S GT3 EVO",
+    "name": "McLaren 720S GT3 EVO",
+    "sku": 10583,
+    "id": 188,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "BMW M4 G82 GT4 Evo",
+    "name": "BMW M4 G82 GT4 Evo",
+    "sku": 10584,
+    "id": 189,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Supercars Ford Mustang Gen 3",
+    "name": "Supercars Ford Mustang Gen 3",
+    "sku": 10585,
+    "id": 190,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Mini Stock",
+    "name": "Mini Stock",
+    "sku": 10586,
+    "id": 191,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Supercars Chevrolet Camaro Gen 3",
+    "name": "Supercars Chevrolet Camaro Gen 3",
+    "sku": 10587,
+    "id": 192,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "Dirt Mini Stock",
+    "name": "Dirt Mini Stock",
+    "sku": 10589,
+    "id": 193,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Acura NSX GT3 EVO 22",
+    "name": "Acura NSX GT3 EVO 22",
+    "sku": 10590,
+    "id": 194,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "BMW M2 CS Racing",
+    "name": "BMW M2 CS Racing",
+    "sku": 10591,
+    "id": 195,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Ferrari 499P",
+    "name": "Ferrari 499P",
+    "sku": 10592,
+    "id": 196,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "ARCA Chevrolet SS",
+    "name": "ARCA Chevrolet SS",
+    "sku": 10598,
+    "id": 198,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "ARCA Ford Mustang",
+    "name": "ARCA Ford Mustang",
+    "sku": 10599,
+    "id": 199,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "ARCA Toyota Camry",
+    "name": "ARCA Toyota Camry",
+    "sku": 10600,
+    "id": 200,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Gen 4 Chevrolet Monte Carlo - 2003",
+    "name": "Gen 4 Chevrolet Monte Carlo - 2003",
+    "sku": 10601,
+    "id": 201,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Gen 4 Ford Taurus - 2003",
+    "name": "Gen 4 Ford Taurus - 2003",
+    "sku": 10602,
+    "id": 202,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Ferrari 296 Challenge",
+    "name": "Ferrari 296 Challenge",
+    "sku": 10603,
+    "id": 203,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Ford Mustang GT4",
+    "name": "Ford Mustang GT4",
+    "sku": 10606,
+    "id": 204,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Dallara IL-15",
+    "name": "Dallara IL-15",
+    "sku": 10607,
+    "id": 205,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Aston Martin Vantage GT3 EVO",
+    "name": "Aston Martin Vantage GT3 EVO",
+    "sku": 10608,
+    "id": 206,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "FIA Cross Car",
+    "name": "FIA Cross Car",
+    "sku": 10610,
+    "id": 207,
+    "categories": [
+      "dirt_road"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Porsche 911 Cup (992.2)",
+    "name": "Porsche 911 Cup (992.2)",
+    "sku": 10611,
+    "id": 208,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Audi RS3 LMS Gen2 TCR",
+    "name": "Audi RS3 LMS Gen2 TCR",
+    "sku": 10614,
+    "id": 210,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "NASCAR Truck RAM",
+    "name": "NASCAR Truck RAM",
+    "sku": 10615,
+    "id": 211,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  }
+]

@@ -3,12 +3,6 @@
 /npm-debug.log
 /.DS_Store
 
-# Scraped data
-/src/data/car-class.json
-/src/data/cars.json
-/src/data/season.json
-/src/data/tracks.json
-/src/data/contributors.json
 
 .idea
 .vscode

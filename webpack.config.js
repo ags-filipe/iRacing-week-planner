@@ -33,6 +33,16 @@ const postcssLoader = {
   },
 };
 
+const sassLoader = {
+  loader: 'sass-loader',
+  options: {
+    sassOptions: {
+      quietDeps: true,
+      silenceDeprecations: ['import', 'legacy-js-api'],
+    },
+  },
+};
+
 const plugins = [
   new HtmlWebpackPlugin({
     hash: true,
@@ -79,7 +89,7 @@ module.exports = {
             },
           },
           postcssLoader,
-          'sass-loader',
+          sassLoader,
         ],
         exclude: /\.module\.css$/,
       },
@@ -96,7 +106,7 @@ module.exports = {
             },
           },
           postcssLoader,
-          'sass-loader',
+          sassLoader,
         ],
         include: /\.module\.css$/,
       },

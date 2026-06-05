@@ -124,6 +124,20 @@ $alert-info-bg: #001b44;
 $alert-info-border: #0c3069;
 $alert-info-text: #58a6ff;
 
+// State colors (used for table row highlights: success = owned content)
+$state-success-bg: #0e2a18;
+$state-success-text: #4ade80;
+$state-success-border: #166534;
+$state-warning-bg: #2d1c00;
+$state-warning-text: #d29922;
+$state-warning-border: #5c3c00;
+$state-danger-bg: #3d0001;
+$state-danger-text: #f85149;
+$state-danger-border: #6e0001;
+$state-info-bg: #001b44;
+$state-info-text: #58a6ff;
+$state-info-border: #0c3069;
+
 // Close button
 $close-color: #8b949e;
 $close-text-shadow: none;
