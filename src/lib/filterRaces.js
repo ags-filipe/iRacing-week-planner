@@ -27,6 +27,8 @@ export default function filterRaces({
 
   filteredRaces = filteredRaces.filter((race) => filters.official.indexOf(race.official) !== -1);
 
+  filteredRaces = filteredRaces.filter((race) => filters.teamEvent.indexOf(race.teamEvent) !== -1);
+
   if (filters.ownedTracks) {
     filteredRaces = filteredRaces.filter((race) => ownedTracks.indexOf(race.trackId) !== -1);
   }

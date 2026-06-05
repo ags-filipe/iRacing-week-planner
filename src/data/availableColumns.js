@@ -4,7 +4,7 @@ import type { ElementType } from 'react';
 import moment from 'moment';
 import {
   Id, Car, Class, EndDate, Fixed, Licence, LinkColumn, NextRace, Official,
-  RaceTimes, Series, SeasonEnd, StartDate, Track, Type, Rain
+  RaceTimes, Series, SeasonEnd, StartDate, TeamEvent, Track, Type, Rain
 } from '../components/columns';
 import RaceLength from '../components/columns/RaceLength';
 import { getNextRace } from '../lib/races';
@@ -187,6 +187,20 @@ const availableColumns: Array<ColumnType> = [{
   header: 'Length',
   component: RaceLength,
   default: true,
+  sort: (order: 'asc' | 'desc', a: SeriesRace, b: SeriesRace) => {
+    const lengthValue = (race: SeriesRace): number => {
+      if (!race.raceLength) return -1;
+      if (race.raceLength.laps) return Number(race.raceLength.laps);
+      if (race.raceLength.minutes) return Number(race.raceLength.minutes);
+      return -1;
+    };
+    const valA = lengthValue(a);
+    const valB = lengthValue(b);
+    if (valA === valB) {
+      return defaultSort(order, a, b);
+    }
+    return order === 'asc' ? valA - valB : valB - valA;
+  },
 }, {
   id: 'official',
   header: 'Official',
@@ -213,6 +227,19 @@ const availableColumns: Array<ColumnType> = [{
       return (a.fixed === false ? -1 : 1);
     }
     return (a.fixed === true ? -1 : 1);
+  },
+}, {
+  id: 'teamEvent',
+  header: 'Team',
+  component: TeamEvent,
+  sort: (order, a, b) => {
+    if (a.teamEvent === b.teamEvent) {
+      return defaultSort(order, a, b);
+    }
+    if (order === 'asc') {
+      return (a.teamEvent === false ? -1 : 1);
+    }
+    return (a.teamEvent === true ? -1 : 1);
   },
 }, {
   id: 'raceTimes',

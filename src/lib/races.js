@@ -5,6 +5,7 @@ import moment from 'moment';
 import season from '../data/season.json';
 import levelToClass, { levelToClassNumber, classToClassNumber, classToLevel } from './levelToClass';
 import offWeeksById from '../data/offWeeks';
+import teamEventSeriesIds from '../data/teamEventSeriesIds';
 
 const { duration } = moment;
 
@@ -36,6 +37,7 @@ export type SeriesRace = {
   offset: moment$MomentDuration | null,
   setTimes: Array<moment$MomentDuration> | null,
   raceLength: { laps: string } | { minutes: string },
+  teamEvent: boolean,
 };
 
 export type TimeableRace = {
@@ -184,6 +186,7 @@ export default season.reduce((carry, series) => {
         minutes: track.race_time_limit,
       },
       precipChance: track.precipChance,
+      teamEvent: teamEventSeriesIds.has(series.seriesid),
     };
   }));
 }, []);

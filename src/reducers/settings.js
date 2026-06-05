@@ -25,6 +25,7 @@ export type FilterOptions = {
   licence: Array<string>,
   official: Array<boolean>,
   fixed: boolean[],
+  teamEvent: boolean[],
   ownedCars: boolean,
   ownedTracks: boolean,
   favouriteSeries: boolean,
@@ -37,6 +38,7 @@ export const defaultFilters: FilterOptions = {
   licence: ['R', 'D', 'C', 'B', 'A', 'P'],
   official: [false, true],
   fixed: [false, true],
+  teamEvent: [false, true],
   ownedCars: false,
   ownedTracks: false,
   favouriteSeries: false,
@@ -70,7 +72,9 @@ export const defaultSettings: SettingOptions = {
 
 function synchroniseLegacyChanges(state) {
   const newState = { ...state };
-  
+
+  newState.filters = { ...defaultFilters, ...newState.filters };
+
   newState.ownedCars = uniq([
     ...newState.ownedCars,
     ...defaultSettings.ownedCars,

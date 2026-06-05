@@ -158,6 +158,22 @@ export default function Filters(): React.Node {
         {t('Fixed setup')}
       </Checkbox>
 
+      <h4>{t('Team events')}</h4>
+      <Checkbox
+        id="checkbox-team-event-false"
+        checked={currentFilters.teamEvent.indexOf(false) !== -1}
+        onChange={getCheckboxFilterHandler('teamEvent', false)}
+      >
+        {t('Solo')}
+      </Checkbox>
+      <Checkbox
+        id="checkbox-team-event-true"
+        checked={currentFilters.teamEvent.indexOf(true) !== -1}
+        onChange={getCheckboxFilterHandler('teamEvent', true)}
+      >
+        {t('Team')}
+      </Checkbox>
+
       <h4>{t('Content')}</h4>
       <Checkbox
         id="checkbox-ownedCars"

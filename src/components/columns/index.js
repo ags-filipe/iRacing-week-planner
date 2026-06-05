@@ -12,5 +12,6 @@ export { default as Rain } from './Rain';
 export { default as Series } from './Series';
 export { default as SeasonEnd } from './SeasonEnd';
 export { default as StartDate } from './StartDate';
+export { default as TeamEvent } from './TeamEvent';
 export { default as Track } from './Track';
 export { default as Type } from './Type';
