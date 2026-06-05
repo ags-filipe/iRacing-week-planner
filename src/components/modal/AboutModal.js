@@ -2,7 +2,6 @@
 
 import * as React from 'react';
 import { Trans, useTranslation } from 'react-i18next';
-import BuyACoffee from '../BuyACoffee';
 import Modal from './Modal';
 import changelog from '../../data/changelog';
 import contributors from '../../data/contributors.json';
@@ -44,26 +43,6 @@ export default function AboutModal({ onClose, isOpen }: Props) {
             <a href="https://github.com/tmoitie/iRacing-week-planner" target="_blank" rel="noreferrer">Github</a>
             . Thanks!
           </Trans>
-        </p>
-
-        <p>
-          <Trans>
-            This is now costing me a few quid a month to run, so if you like using this tool, please feel free
-            to
-            {' '}
-            <a
-              href="https://www.buymeacoffee.com/tmoitie"
-              target="_blank"
-              rel="noreferrer"
-            >
-              buy me a coffee
-            </a>
-            .
-          </Trans>
-        </p>
-
-        <p>
-          <BuyACoffee />
         </p>
 
         <h3>{t('Contributors')}</h3>
