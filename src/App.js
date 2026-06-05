@@ -2,6 +2,8 @@
 
 import * as React from 'react';
 import { useTranslation } from 'react-i18next';
+import { useDispatch } from 'react-redux';
+import { changeModal } from './actions/app';
 import DateSlider from './components/DateSlider';
 import GlobalModals from './components/GlobalModals';
 import Navbar from './components/Navbar';
@@ -17,6 +19,9 @@ import './styles/dark-global.scss';
 
 export default function App(): React.Node {
   const { t, i18n } = useTranslation();
+  const [filtersOpen, setFiltersOpen] = React.useState(false);
+  const dispatch = useDispatch();
+  const openModal = (name) => (e) => { e.preventDefault(); dispatch(changeModal(name)); };
 
   React.useEffect(() => {
     document.body.dir = i18n.dir();
@@ -32,12 +37,25 @@ export default function App(): React.Node {
       <div className={styles['container-fluid']}>
         <div className={styles.row}>
           <div className={styles['col-md-2']}>
-            <h3>{t('Filters')}</h3>
-            <Filters />
+            <button
+              type="button"
+              className={`${styles.btn} ${styles['btn-default']} ${styles['filters-toggle']}`}
+              onClick={() => setFiltersOpen(!filtersOpen)}
+            >
+              {filtersOpen ? `▲ ${t('Hide filters')}` : `▼ ${t('Filters')}`}
+            </button>
+            <div className={`${styles['filters-panel']} ${filtersOpen ? styles['filters-panel-open'] : ''}`}>
+              <h3>{t('Filters')}</h3>
+              <Filters />
+            </div>
           </div>
           <div className={styles['col-md-10']}>
             <DateSlider />
             <RaceListing />
+            <div className={styles['page-footer']}>
+              <a href="" onClick={openModal('options')}>{t('Options')}</a>
+              <a href="" onClick={openModal('about')}>{t('About')}</a>
+            </div>
           </div>
         </div>
       </div>

@@ -166,6 +166,7 @@ $close-text-shadow: none;
 @import "~bootstrap-sass/assets/stylesheets/bootstrap/close";
 
 @import "~bootstrap-sass/assets/stylesheets/bootstrap/modals";
+@import "~bootstrap-sass/assets/stylesheets/bootstrap/responsive-utilities";
 
 // === Custom dark theme styles ===
 
@@ -225,4 +226,59 @@ $close-text-shadow: none;
     background-color: #388bfd;
     border-color: #58a6ff;
   }
+}
+
+// Navbar: brand on row 1, nav links on row 2 always
+.navbar-header {
+  float: none;
+  width: 100%;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  float: none !important;
+  margin: 0;
+
+  > li {
+    float: none;
+  }
+}
+
+.navbar-right {
+  float: none !important;
+}
+
+// Mobile filters toggle
+.filters-toggle {
+  display: none;
+  width: 100%;
+  margin: 8px 0;
+  text-align: left;
+
+  @media (max-width: 991px) {
+    display: block;
+  }
+}
+
+.filters-panel {
+  @media (max-width: 991px) {
+    display: none;
+  }
+
+  &.filters-panel-open {
+    @media (max-width: 991px) {
+      display: block;
+    }
+  }
+}
+
+.page-footer {
+  margin-top: 24px;
+  padding: 12px 0;
+  border-top: 1px solid #21262d;
+  display: flex;
+  gap: 16px;
+  font-size: 0.9em;
+  color: #8b949e;
 }

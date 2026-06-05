@@ -44,7 +44,7 @@ export default function Navbar() {
           <a className={styles['navbar-brand']} href="/">{t('iRacing Week Planner')}</a>
         </div>
 
-        <ul className={`${styles.nav} ${styles['navbar-nav']} ${styles['navbar-left']}`}>
+        <ul className={`${styles.nav} ${styles['navbar-nav']}`}>
           <li>
             <a
               id="navbar-link-purchase-guide"
@@ -54,9 +54,6 @@ export default function Navbar() {
               {t('Purchase guide')}
             </a>
           </li>
-        </ul>
-
-        <ul className={`${styles.nav} ${styles['navbar-nav']} ${styles['navbar-right']}`}>
           <li>
             <a
               id="navbar-link-my-tracks"
@@ -82,24 +79,6 @@ export default function Navbar() {
               onClick={getModalChangeClick('favourite-series')}
             >
               {t('Set favorite series')}
-            </a>
-          </li>
-          <li>
-            <a
-              id="navbar-link-options"
-              href=""
-              onClick={getModalChangeClick('options')}
-            >
-              {t('Options')}
-            </a>
-          </li>
-          <li>
-            <a
-              href=""
-              id="navbar-link-about"
-              onClick={getModalChangeClick('about')}
-            >
-              {t('About')}
             </a>
           </li>
           <li
