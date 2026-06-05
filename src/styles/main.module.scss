@@ -9,6 +9,125 @@
 
 $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 
+// === Dark theme: Bootstrap 3 SCSS variable overrides (must precede bootstrap/variables) ===
+
+// Base
+$body-bg: #0d1117;
+$text-color: #e6edf3;
+$link-color: #58a6ff;
+$link-hover-color: #79b8ff;
+$link-hover-decoration: none;
+
+// Typography
+$headings-color: #e6edf3;
+$headings-font-weight: 600;
+$hr-border: #21262d;
+$blockquote-border-color: #30363d;
+
+// Border radius (more modern)
+$border-radius-base: 6px;
+$border-radius-large: 8px;
+$border-radius-small: 4px;
+
+// Navbar (inverse)
+$navbar-height: 52px;
+$navbar-inverse-bg: #010409;
+$navbar-inverse-border: #21262d;
+$navbar-inverse-color: #8b949e;
+$navbar-inverse-link-color: #c9d1d9;
+$navbar-inverse-link-hover-color: #e6edf3;
+$navbar-inverse-link-hover-bg: rgba(255, 255, 255, 0.08);
+$navbar-inverse-link-active-color: #e6edf3;
+$navbar-inverse-link-active-bg: rgba(255, 255, 255, 0.06);
+$navbar-inverse-brand-color: #e6edf3;
+$navbar-inverse-brand-hover-color: #fff;
+$navbar-inverse-brand-hover-bg: transparent;
+$navbar-inverse-toggle-hover-bg: #161b22;
+$navbar-inverse-toggle-border-color: #30363d;
+$navbar-inverse-toggle-icon-bar-bg: #e6edf3;
+
+// Dropdowns
+$dropdown-bg: #1c2128;
+$dropdown-border: #444c56;
+$dropdown-divider-bg: #30363d;
+$dropdown-link-color: #c9d1d9;
+$dropdown-link-hover-color: #e6edf3;
+$dropdown-link-hover-bg: #272e38;
+$dropdown-link-active-color: #e6edf3;
+$dropdown-link-active-bg: #1f6feb;
+$dropdown-link-disabled-color: #6e7681;
+
+// Tables
+$table-bg: transparent;
+$table-bg-accent: rgba(255, 255, 255, 0.025);
+$table-bg-hover: rgba(255, 255, 255, 0.05);
+$table-bg-active: rgba(255, 255, 255, 0.05);
+$table-border-color: #21262d;
+$table-cell-padding: 7px 10px;
+
+// Buttons
+$btn-default-color: #c9d1d9;
+$btn-default-bg: #21262d;
+$btn-default-border: #444c56;
+$btn-primary-color: #ffffff;
+$btn-primary-bg: #1f6feb;
+$btn-primary-border: #388bfd;
+$btn-link-disabled-color: #6e7681;
+
+// Forms / inputs
+$input-bg: #0d1117;
+$input-bg-disabled: #161b22;
+$input-color: #e6edf3;
+$input-border: #30363d;
+$input-border-focus: #388bfd;
+$input-color-placeholder: #6e7681;
+$legend-color: #8b949e;
+$legend-border-color: #30363d;
+$input-group-addon-bg: #21262d;
+$input-group-addon-border-color: #30363d;
+
+// Labels
+$label-default-bg: #30363d;
+$label-primary-bg: #1f6feb;
+
+// Panels
+$panel-bg: #161b22;
+$panel-inner-border: #30363d;
+$panel-default-text: #e6edf3;
+$panel-default-border: #30363d;
+$panel-default-heading-bg: #21262d;
+$panel-footer-bg: #161b22;
+
+// Wells
+$well-bg: #161b22;
+$well-border: #30363d;
+
+// Modals
+$modal-content-bg: #161b22;
+$modal-content-border-color: #30363d;
+$modal-header-border-color: #21262d;
+$modal-footer-border-color: #21262d;
+$modal-backdrop-bg: #000;
+$modal-backdrop-opacity: 0.7;
+
+// Alerts
+$alert-success-bg: #0f2d1a;
+$alert-success-border: #1f5c34;
+$alert-success-text: #56d364;
+$alert-warning-bg: #2d1c00;
+$alert-warning-border: #5c3c00;
+$alert-warning-text: #d29922;
+$alert-danger-bg: #3d0001;
+$alert-danger-border: #6e0001;
+$alert-danger-text: #f85149;
+$alert-info-bg: #001b44;
+$alert-info-border: #0c3069;
+$alert-info-text: #58a6ff;
+
+// Close button
+$close-color: #8b949e;
+$close-text-shadow: none;
+
 @import "~bootstrap-sass/assets/stylesheets/bootstrap/variables";
 @import "~bootstrap-sass/assets/stylesheets/bootstrap/mixins";
 
@@ -33,3 +152,63 @@ $icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
 @import "~bootstrap-sass/assets/stylesheets/bootstrap/close";
 
 @import "~bootstrap-sass/assets/stylesheets/bootstrap/modals";
+
+// === Custom dark theme styles ===
+
+.table {
+  > thead > tr > th {
+    background-color: rgba(255, 255, 255, 0.03);
+    color: #8b949e;
+    font-size: 0.72em;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-weight: 600;
+  }
+}
+
+.modal-content {
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8), 0 0 0 1px rgba(255, 255, 255, 0.06);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.modal-header {
+  padding: 16px 20px;
+
+  .close {
+    color: #8b949e;
+    opacity: 0.7;
+    margin-top: -2px;
+
+    &:hover {
+      color: #e6edf3;
+      opacity: 1;
+    }
+  }
+}
+
+.modal-body {
+  padding: 16px 20px;
+}
+
+.modal-footer {
+  padding: 12px 20px;
+}
+
+.navbar-brand {
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  font-size: 18px;
+}
+
+.btn {
+  font-weight: 500;
+  transition: all 0.15s ease;
+}
+
+.btn-primary {
+  &:hover {
+    background-color: #388bfd;
+    border-color: #58a6ff;
+  }
+}

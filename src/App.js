@@ -13,6 +13,7 @@ import styles from './styles/main.module.scss';
 
 import '@blueprintjs/core/lib/css/blueprint.css';
 import './styles/fonts.css';
+import './styles/dark-global.scss';
 
 export default function App(): React.Node {
   const { t, i18n } = useTranslation();

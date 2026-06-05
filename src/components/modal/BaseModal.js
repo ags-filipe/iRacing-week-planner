@@ -47,7 +47,7 @@ export default function BaseModal({ isOpen, onRequestClose, children, id, classN
         position: 'fixed',
         display: 'block',
         inset: 0,
-        backgroundColor: 'rgba(255, 255, 255, 0.75)',
+        backgroundColor: 'rgba(0, 0, 0, 0.75)',
       } : {
         position: 'inherit',
         display: 'none',
