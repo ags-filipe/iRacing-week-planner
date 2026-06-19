@@ -1667,8 +1667,8 @@
   },
   {
     "freeWithSubscription": true,
-    "skuname": "Formula Vee",
-    "name": "Formula Vee",
+    "skuname": "Formula Vee - Classic",
+    "name": "Formula Vee - Classic",
     "sku": 10507,
     "id": 142,
     "categories": [
@@ -2381,8 +2381,8 @@
   },
   {
     "freeWithSubscription": true,
-    "skuname": "BMW M2 CS Racing",
-    "name": "BMW M2 CS Racing",
+    "skuname": "BMW M2 CS Racing (F87) - 2020",
+    "name": "BMW M2 CS Racing (F87) - 2020",
     "sku": 10591,
     "id": 195,
     "categories": [
@@ -2588,5 +2588,61 @@
       "oval car"
     ],
     "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "EURO NASCAR V8GP",
+    "name": "EURO NASCAR V8GP",
+    "sku": 10618,
+    "id": 213,
+    "categories": [
+      "oval"
+    ],
+    "discountGroupNames": [
+      "oval car"
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Formula Vee - Cutlass",
+    "name": "Formula Vee - Cutlass",
+    "sku": 10619,
+    "id": 214,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": false,
+    "skuname": "Formula Vee - Conqueror",
+    "name": "Formula Vee - Conqueror",
+    "sku": 10619,
+    "id": 215,
+    "categories": [
+      "formula_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 11.95
+  },
+  {
+    "freeWithSubscription": true,
+    "skuname": "BMW M2 Racing (G87)",
+    "name": "BMW M2 Racing (G87)",
+    "sku": 10620,
+    "id": 216,
+    "categories": [
+      "sports_car"
+    ],
+    "discountGroupNames": [
+      null
+    ],
+    "price": 0
   }
 ]

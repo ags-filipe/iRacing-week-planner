@@ -1467,6 +1467,22 @@
     "map": "https://members-assets.iracing.com/public/track-maps/tracks_stpete/584-stpete/inactive.svg"
   },
   {
+    "id": 589,
+    "ids": [
+      589
+    ],
+    "name": "Qualcomm Circuit (Naval Base Coronado)",
+    "default": false,
+    "pkgid": 544,
+    "primaryType": "road",
+    "hasOval": false,
+    "hasRoad": false,
+    "hasDirtOval": false,
+    "hasDirtRoad": false,
+    "price": 14.95,
+    "map": "https://members-assets.iracing.com/public/track-maps/tracks_coronado/589-coronado/inactive.svg"
+  },
+  {
     "id": 2,
     "ids": [
       2,
@@ -1622,23 +1638,6 @@
     "hasDirtRoad": false,
     "price": 4.95,
     "map": "https://members-assets.iracing.com/public/track-maps/tracks_silverstone/41-silverstone-gp/inactive.svg"
-  },
-  {
-    "id": 47,
-    "ids": [
-      47,
-      158
-    ],
-    "name": "WeatherTech Raceway at Laguna Seca",
-    "default": false,
-    "pkgid": 34,
-    "primaryType": "road",
-    "hasOval": false,
-    "hasRoad": false,
-    "hasDirtOval": false,
-    "hasDirtRoad": false,
-    "price": 14.95,
-    "map": "https://members-assets.iracing.com/public/track-maps/tracks_lagunaseca/47-lagunaseca/inactive.svg"
   },
   {
     "id": 95,
@@ -2602,7 +2601,8 @@
       555,
       556,
       557,
-      558
+      558,
+      587
     ],
     "name": "Charlotte Motor Speedway ",
     "default": true,
@@ -2706,6 +2706,24 @@
     "hasDirtRoad": false,
     "price": 14.95,
     "map": "https://members-assets.iracing.com/public/track-maps/tracks_barber/585-barber-2026/inactive.svg"
+  },
+  {
+    "id": 586,
+    "ids": [
+      47,
+      158,
+      586
+    ],
+    "name": "WeatherTech Raceway at Laguna Seca",
+    "default": false,
+    "pkgid": 34,
+    "primaryType": "road",
+    "hasOval": false,
+    "hasRoad": false,
+    "hasDirtOval": false,
+    "hasDirtRoad": false,
+    "price": 14.95,
+    "map": "https://members-assets.iracing.com/public/track-maps/tracks_lagunaseca/586-lagunaseca-2026/inactive.svg"
   },
   {
     "id": 1,
